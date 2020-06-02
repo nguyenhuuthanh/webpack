@@ -6,11 +6,11 @@ module.exports = {
     app: './src/index.js',
     print: './src/print.js',
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      title: 'Output Management',
-    }),
-  ],
+  // plugins: [
+  //   new HtmlWebpackPlugin({
+  //     title: 'Output Management',
+  //   }),
+  // ],
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
