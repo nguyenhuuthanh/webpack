@@ -1,4 +1,12 @@
+@font-face {
+  font-family: 'Lucida Grande Bold';
+  src: url('./lucidagrande-bold.woff2') format('woff2'),
+       url('./lucidagrande-bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
 .hello {
   color: red;
+  font-family: 'Lucida Grande Bold';
   background: url('./icon.png');
 }
