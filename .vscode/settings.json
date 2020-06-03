@@ -1,0 +1,4 @@
+{
+  "browser-preview.startUrl": "http://localhost:8500",
+  "browser-preview.verbose": false,
+}
