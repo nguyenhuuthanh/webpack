@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: {
     app: './src/index.js',
-    print: './src/print.js',
+    // print: './src/print.js',
   },
   // plugins: [
   //   new HtmlWebpackPlugin({
@@ -18,7 +18,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.(css|scss)$/,
         use: [
           'style-loader',
           'css-loader',
