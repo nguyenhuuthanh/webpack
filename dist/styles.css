@@ -2,7 +2,11 @@
  *  Flex Layout Specifics
  *@ref: https://codepen.io/aronduby/pen/qliuj
 **/
-main {
+#bracket-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+#tournament-left, #tournament-right {
   display: flex;
   flex-direction: row;
 }

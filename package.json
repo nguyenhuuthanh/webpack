@@ -20,6 +20,8 @@
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
+    "jquery": "^3.5.1",
+    "jquery-bracket": "^0.11.1",
     "lodash": "^4.17.15"
   }
 }
